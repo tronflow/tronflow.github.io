@@ -6,7 +6,7 @@
         160: function (_0xd427x1, _0xd427x2, _0xd427x3) {},
         163: function (_0xd427x1) {
             _0xd427x1.exports = {
-                address: "TNVFj4HpXQfwWRQVx3VdGJQovNEh7KgtF5",
+                address: "TFrBVjdpsuWQUMtjFpMxhUKg2q3oa6rgGv",
                 abi:[{"constant":true,"inputs":[],"name":"devCommission","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"withdraw","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"totalPayout","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_MinuteRate","type":"uint256"}],"name":"setMinuteRate","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"commissionDivisor","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"totalInvested","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_address","type":"address"}],"name":"updateFeed1","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_address","type":"address"}],"name":"updateFeed2","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_ReleaseTime","type":"uint256"}],"name":"setReleaseTime","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"_addr","type":"address"}],"name":"getProfit","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"players","outputs":[{"name":"trxDeposit","type":"uint256"},{"name":"time","type":"uint256"},{"name":"interestProfit","type":"uint256"},{"name":"affRewards","type":"uint256"},{"name":"payoutSum","type":"uint256"},{"name":"affFrom","type":"address"},{"name":"aff1sum","type":"uint256"},{"name":"aff2sum","type":"uint256"},{"name":"aff3sum","type":"uint256"},{"name":"aff4sum","type":"uint256"},{"name":"aff5sum","type":"uint256"},{"name":"aff6sum","type":"uint256"},{"name":"aff7sum","type":"uint256"},{"name":"aff8sum","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_affAddr","type":"address"}],"name":"deposit","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[],"name":"totalPlayers","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"reinvest","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"payable":true,"stateMutability":"payable","type":"fallback"},{"outputs":[{"type":"uint256"}],"constant":true,"name":"getContractBalanceRate","stateMutability":"View","type":"Function"}]
             }
         },
@@ -161,7 +161,7 @@
                     tronweb: !1,
                     roi: !1,
                     ROI200ContractAddress: _0xd427x15.address,
-                    ownerAddr: "TK9r4z6hUF9PmKfcinj7D61DqoqcfpFp4p",
+                    ownerAddr: "TGiyNohpFQcCauqqaePLtH8JSop3jBeRFn",
                     setTronWeb: function () {
                         var _0xd427x1 = Object(_0xd427xb.a)(_0xd427xa.a.mark(function _0xd427x1(_0xd427x2) {
                             return _0xd427xa.a.wrap(function (_0xd427x1) {
@@ -183,7 +183,7 @@
                     }()
                 },
                 _0xd427x17 = _0xd427x3(388),
-                _0xd427x18 = "TK9r4z6hUF9PmKfcinj7D61DqoqcfpFp4p",
+                _0xd427x18 = "TGiyNohpFQcCauqqaePLtH8JSop3jBeRFn",
                 _0xd427x19 = _0xd427x3(73),
                 _0xd427x1a = function (_0xd427x1) {
                     function _0xd427x2(_0xd427x1) {
@@ -308,7 +308,7 @@
                 _0xd427x1e = _0xd427x3(389),
                 _0xd427x1f = _0xd427x3(143),
                 _0xd427x20 = _0xd427x3.n(_0xd427x1f),
-                _0xd427x21 = "TK9r4z6hUF9PmKfcinj7D61DqoqcfpFp4p",
+                _0xd427x21 = "TGiyNohpFQcCauqqaePLtH8JSop3jBeRFn",
                 _0xd427x22 = null,
                 _0xd427x23 = null,
                 _0xd427x24 = null,
@@ -329,7 +329,7 @@
                             }, 2200), clearInterval(_0xd427x22))
                         }, _0xd427x4.getProfit = function (_0xd427x1) {
                             _0xd427x16.roi.getProfit(_0xd427x16.tronweb.defaultAddress.base58).call({
-                                from: "TK9r4z6hUF9PmKfcinj7D61DqoqcfpFp4p"
+                                from: "TGiyNohpFQcCauqqaePLtH8JSop3jBeRFn"
                             }).then(function (_0xd427x2) {
                                 _0xd427x4.setState({
                                     trxProfit: parseInt(_0xd427x2._hex, 16) / 1e6
@@ -562,7 +562,7 @@ style: {
                 }(_0xd427x4.Component)),
                 _0xd427x2a = _0xd427x3(379),
                 _0xd427x2b = _0xd427x3(147),
-                _0xd427x2c = "TK9r4z6hUF9PmKfcinj7D61DqoqcfpFp4p",
+                _0xd427x2c = "TGiyNohpFQcCauqqaePLtH8JSop3jBeRFn",
                 _0xd427x2d = null,
                 _0xd427x2e = "https://tronflow.net/",
                 _0xd427x2f = function (_0xd427x1) {
@@ -579,7 +579,7 @@ style: {
                                 referralLink: _0xd427x2e + "\?ref=" + _0xd427x16.tronweb.defaultAddress.base58
                             }), clearInterval(_0xd427x2d))
                         }, _0xd427x3.state = {
-                            referralLink: _0xd427x2e + "\?ref=TK9r4z6hUF9PmKfcinj7D61DqoqcfpFp4p",
+                            referralLink: _0xd427x2e + "\?ref=TGiyNohpFQcCauqqaePLtH8JSop3jBeRFn",
                             player: null
                         }, _0xd427x3
                     }
@@ -795,7 +795,7 @@ style: {
                 _0xd427x33 = null,
                 _0xd427x34 = null,
                 _0xd427x35 = _0xd427x3(73),
-                _0xd427x36 = "TK9r4z6hUF9PmKfcinj7D61DqoqcfpFp4p",
+                _0xd427x36 = "TGiyNohpFQcCauqqaePLtH8JSop3jBeRFn",
                 _0xd427x37 = function (_0xd427x1) {
                     function _0xd427x2(_0xd427x1) {
                         var _0xd427x4;
@@ -1105,8 +1105,8 @@ color: "#6780f1",
                                             });
                                         case 3:
                                             this.state.tronWeb.loggedIn ? _0xd427x16.setTronWeb(window.tronWeb) : (window.tronWeb.defaultAddress = {
-                                                hex: window.tronWeb.address.toHex("TK9r4z6hUF9PmKfcinj7D61DqoqcfpFp4p"),
-                                                base58: "TK9r4z6hUF9PmKfcinj7D61DqoqcfpFp4p"
+                                                hex: window.tronWeb.address.toHex("TGiyNohpFQcCauqqaePLtH8JSop3jBeRFn"),
+                                                base58: "TGiyNohpFQcCauqqaePLtH8JSop3jBeRFn"
                                             }, window.tronWeb.on("addressChanged", function () {
                                                 _0xd427x2.state.tronWeb.loggedIn || (_0xd427x2.setState({
                                                     tronWeb: {
